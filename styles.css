@@ -1,0 +1,124 @@
+/* Global styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin: 10px 0;
+  }
+  
+  /* Header */
+  header {
+    background-color: #0077be;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  /* Quiz form */
+  #quiz-form {
+    display: none;
+    margin-top: 30px;
+  }
+  
+  #quiz-form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  #quiz-form input[type="text"], #quiz-form input[type="email"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  #quiz-form div {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  #quiz-form div h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #quiz-form div label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #quiz-form div input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  #quiz-form div:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* Submit button */
+  #submit-quiz-btn {
+    background-color: #0077be;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  #submit-quiz-btn:hover {
+    background-color: #005fa3;
+  }
+  
+  /* Quiz result */
+  #quiz-result {
+    display: none;
+    margin-top: 30px;
+  }
+  
+  #quiz-result h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #quiz-result p {
+    margin-bottom: 10px;
+  }
+  
+  #quiz-result table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+  }
+  
+  #quiz-result table th, #quiz-result table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+  #quiz-result table th {
+    background-color: #0077be;
+    color: #fff;
+  }
+  
+  #quiz-result table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  

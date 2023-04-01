@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congrats!</title>
+</head>
+<body>
+    <div class="endQuiz-container">
+        <h1><span id="username"></span></h1>
+    </div>
+    <div id="results" class="hide">
+        <h2 id="result-title"></h2>
+        <p id="result-text"></p>
+    </div>
+    <button type="reset" id="restart">Restart Quiz</button>
+
+    <script src="end.js"></script>
+    <script>
+        const username = document.getElementById('username');
+        if (localStorage.getItem('username')) {
+          username.textContent = `Congrats!, ${localStorage.getItem('username')}`;
+        }
+    </script>  
+</body>
+</html>

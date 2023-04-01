@@ -1,0 +1,92 @@
+[
+    {
+    "question": "What does ICT stand for?",
+    "options": [
+    "A. Information and Communication Technology",
+    "B. Information and Computer Technology",
+    "C. Information and Creative Technology",
+    "D. Intelligent Communication Technology"
+    ],
+    "answer": "A"
+    },
+    {
+    "question": "What are some benefits of using ICT in learning?",
+    "options": [
+    "A. Provides access to a vast range of information and resources",
+    "B. Offers interactive and engaging learning experiences",
+    "C. Facilitates communication and collaboration between learners and teachers",
+    "D. All of the above"
+    ],
+    "answer": "D"
+    },
+    {
+    "question": "What is one way ICT can personalize learning?",
+    "options": [
+    "A. Providing immediate feedback",
+    "B. Adjusting to students' learning styles, pace, and abilities",
+    "C. Offering a vast range of information and resources",
+    "D. Facilitating communication and collaboration between learners and teachers"
+    ],
+    "answer": "B"
+    },
+    {
+    "question": "What is the main advantage of using multimedia content in learning?",
+    "options": [
+    "A. It makes learning easier",
+    "B. It provides interactive and engaging learning experiences",
+    "C. It is cheaper than traditional learning methods",
+    "D. It is more accessible to learners"
+    ],
+    "answer": "B"
+    },
+    {
+    "question": "How can ICT prepare students for the workforce?",
+    "options": [
+    "A. By enhancing their academic performance",
+    "B. By improving their digital literacy skills",
+    "C. By providing access to a vast range of information and resources",
+    "D. By facilitating communication and collaboration between learners and teachers"
+    ],
+    "answer": "B"
+    },
+    {
+    "question": "Which of the following is not a component of ICT?",
+    "options": [
+    "A. Hardware",
+    "B. Software",
+    "C. Procedures",
+    "D. People"
+    ],
+    "answer": "D"
+    },
+    {
+    "question": "What is one advantage of using ICT for communication and collaboration?",
+    "options": [
+    "A. It can personalize learning for students",
+    "B. It can provide access to a vast range of information and resources",
+    "C. It can make learning more interactive and engaging",
+    "D. It can facilitate communication and collaboration between learners and teachers, even if they are not physically in the same location."
+    ],
+    "answer": "D"
+    },
+    {
+    "question": "What is one way ICT can provide immediate feedback to learners?",
+    "options": [
+    "A. By adjusting to their learning styles, pace, and abilities",
+    "B. By providing access to a vast range of information and resources",
+    "C. By offering interactive and engaging learning experiences",
+    "D. By using adaptive learning tools that provide feedback and help identify strengths and weaknesses."
+    ],
+    "answer": "D"
+    },
+    {
+    "question": "What is multimedia in education?",
+    "options": [
+    "A. The use of multiple devices in the classroom",
+    "B. The combination of various media elements into a single interactive learning experience",
+    "C. The use of video conferencing in the classroom",
+    "D. The use of textbooks with pictures and graphics"
+    ],
+    "answer": "B"
+    }
+]

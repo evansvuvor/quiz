@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Questions</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1> <span id="username"> </span> </h1>
+        <!-- <form action="#" id="quiz-form">
+            ...
+        </form> -->
+        <!-- <div id="quiz"></div> -->
+        <button type="submit" id="submit">Submit Answers</button>
+        <div id="results" class="hide">
+            <h2 id="result-title"></h2>
+            <p id="result-text"></p>
+        </div>
+    </div>
+    <!-- <script src="script.js"></script> -->
+    <script src="question1.js"></script>
+
+    <script>
+        const username = document.getElementById('username');
+        if (localStorage.getItem('username')) {
+          username.textContent = `Welcome, ${localStorage.getItem('username')}`;
+        }
+    </script>    
+</body>
+</html>
